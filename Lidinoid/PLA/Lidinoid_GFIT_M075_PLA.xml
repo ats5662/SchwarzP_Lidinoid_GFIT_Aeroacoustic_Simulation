@@ -47,6 +47,11 @@
 						<comp dof="x" value="0" />
 						<comp dof="y" value="0" />
 					</flow>
+					<grid dofs="all">
+						<defaultGrid dependtype="GENERAL" quantity="meanFluidMechVelocity">
+							<globalFactor>1</globalFactor>
+						</defaultGrid>
+					</grid>
 				</flowList>
 				<bcsAndLoads>
 					<pressure name="Excite" value="63.2"
@@ -90,6 +95,9 @@
 							<nodes name="Inlet" outputIds="txt"/>
 							<nodes name="Outlet" outputIds="txt"/>
 						</nodeList>
+					</nodeResult>
+					<nodeResult type='meanFluidMechVelocity'>
+						<allRegions outputIds="hdf5" />
 					</nodeResult>
 					<elemResult type='acouPressure' complexFormat='realImag'>
 						<allRegions outputIds="hdf5" />
