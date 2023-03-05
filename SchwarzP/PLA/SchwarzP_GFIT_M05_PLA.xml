@@ -19,15 +19,6 @@
 			<region name='AirBlock' material='Air' />
 		</regionList>
 		<nodeList>
-			<nodes name='mic1'>
-				<coord x='0.0' y='0.0' z='0.1524' />
-			</nodes>
-			<nodes name='mic2'>
-				<coord x='0.0' y='0.0' z='0.3048' />
-			</nodes>
-			<nodes name='mic3'>
-				<coord x='0.0' y='0.0' z='1.524' />
-			</nodes>
 			<nodes name='Inlet'>
 				<coord x='0.0' y='0.0' z='0' />
 			</nodes>
@@ -52,7 +43,7 @@
 				</regionList>
 				<flowList>
 					<flow name="Flow">
-						<comp dof="z" value="343*0.5" />
+						<comp dof="z" value="sqrt(142604.4/1.21)*0.5" />
 						<comp dof="x" value="0" />
 						<comp dof="y" value="0" />
 					</flow>
@@ -88,17 +79,14 @@
 				</bcsAndLoads>
 				<impedanceList>
 					<fctImpedance id="IMP">
-						<fctReal>sample1D('SchwarzP_PLA_Resistance.txt',f,1)</fctReal>
-						<fctImag>sample1D('SchwarzP_PLA_Reactance.txt',f,1)</fctImag>
+						<fctReal>sample1D('SchwarzP_PLA_Resistance.txt',f,2)</fctReal>
+						<fctImag>sample1D('SchwarzP_PLA_Reactance.txt',f,2)</fctImag>
 					</fctImpedance>
 				</impedanceList>
 				<storeResults>
 					<nodeResult type='acouPressure' complexFormat='realImag'>
 						<allRegions outputIds="hdf5" />
 						<nodeList>
-							<nodes name='mic1' outputIds='txt' />
-							<nodes name='mic2' outputIds='txt' />
-							<nodes name='mic3' outputIds='txt' />
 							<nodes name="Inlet" outputIds="txt"/>
 							<nodes name="Outlet" outputIds="txt"/>
 						</nodeList>
