@@ -1,0 +1,1414 @@
+
+=======================================================================
+ CFS++ - Coupled Field Simulation
+
+ v. 22.09 - 'Frohes Fensterln' 56797e7bc1ba33fd9312c903fc63155c312df203
+ compiled Oct  3 2022 as Release (distributable)
+ CFS++ routines use 2 threads for this run. OMP/ MKL threads: 2/ 2
+=======================================================================
+
+Simulation run started at 2023-Mar-09 04:14:11 on DESKTOP-TBHLNOT
+++ Reading parameter file '/home/ats5662/SchwarzP_Lidinoid_GFIT_Aeroacoustic_Simulation/SchwarzP/PLA/SchwarzP_GFIT_M075_PLA.xml'
+++ Creating hdf5 writer with ID 'hdf5'
+++ Creating text writer with ID 'txt'
+++ Reading mesh ... Initial scan of input file
+
+Number of node blocks found 1
+Number of element blocks found 1
+Number of cm blocks found 15
+Number of N commands found 1
+Number of ET commands found 1
+Finished scanning input file
+Processing node block 1
+
+nblock 1 (145831 nodes found in block)
+Finished reading nodes (145831 read)
+
+Element block 0 (31032 elements read)
+Finished reading elements (31032 read)
+Region name: AirBlock
+Region AirBlock contains 31032 entries
+NodeGroup 1 contains 1045 entries
+NodeGroup 2 contains 1045 entries
+NodeGroup 3 contains 1045 entries
+NodeGroup 4 contains 1045 entries
+NodeGroup 5 contains 1045 entries
+NodeGroup 6 contains 1045 entries
+NodeGroup 7 contains 1045 entries
+NodeGroup 8 contains 1045 entries
+NodeGroup 9 contains 1045 entries
+NodeGroup 10 contains 1045 entries
+NodeGroup 11 contains 1045 entries
+NodeGroup 12 contains 1045 entries
+NodeGroup 13 contains 1045 entries
+NodeGroup 14 contains 1045 entries
+"GFITMesh.cdb" Overall number of faces generated: 100042
+-> partially regular
+++ Creating PDE 'acoustic' for analysis 'harmonic'
+DO Convective Wave Operator!!!!!!!!!!!!!!!!!
+
+
+acoustic: Harmonic step 1 ======================= 
+
+acoustic: Harmonic step 2 ======================= 
+
+acoustic: Harmonic step 3 ======================= 
+
+acoustic: Harmonic step 4 ======================= 
+
+acoustic: Harmonic step 5 ======================= 
+
+acoustic: Harmonic step 6 ======================= 
+
+acoustic: Harmonic step 7 ======================= 
+
+acoustic: Harmonic step 8 ======================= 
+
+acoustic: Harmonic step 9 ======================= 
+
+acoustic: Harmonic step 10 ======================= 
+
+acoustic: Harmonic step 11 ======================= 
+
+acoustic: Harmonic step 12 ======================= 
+
+acoustic: Harmonic step 13 ======================= 
+
+acoustic: Harmonic step 14 ======================= 
+
+acoustic: Harmonic step 15 ======================= 
+
+acoustic: Harmonic step 16 ======================= 
+
+acoustic: Harmonic step 17 ======================= 
+
+acoustic: Harmonic step 18 ======================= 
+
+acoustic: Harmonic step 19 ======================= 
+
+acoustic: Harmonic step 20 ======================= 
+
+acoustic: Harmonic step 21 ======================= 
+
+acoustic: Harmonic step 22 ======================= 
+
+acoustic: Harmonic step 23 ======================= 
+
+acoustic: Harmonic step 24 ======================= 
+
+acoustic: Harmonic step 25 ======================= 
+
+acoustic: Harmonic step 26 ======================= 
+
+acoustic: Harmonic step 27 ======================= 
+
+acoustic: Harmonic step 28 ======================= 
+
+acoustic: Harmonic step 29 ======================= 
+
+acoustic: Harmonic step 30 ======================= 
+
+acoustic: Harmonic step 31 ======================= 
+
+acoustic: Harmonic step 32 ======================= 
+
+acoustic: Harmonic step 33 ======================= 
+
+acoustic: Harmonic step 34 ======================= 
+
+acoustic: Harmonic step 35 ======================= 
+
+acoustic: Harmonic step 36 ======================= 
+
+acoustic: Harmonic step 37 ======================= 
+
+acoustic: Harmonic step 38 ======================= 
+
+acoustic: Harmonic step 39 ======================= 
+
+acoustic: Harmonic step 40 ======================= 
+
+acoustic: Harmonic step 41 ======================= 
+
+acoustic: Harmonic step 42 ======================= 
+
+acoustic: Harmonic step 43 ======================= 
+
+acoustic: Harmonic step 44 ======================= 
+
+acoustic: Harmonic step 45 ======================= 
+
+acoustic: Harmonic step 46 ======================= 
+
+acoustic: Harmonic step 47 ======================= 
+
+acoustic: Harmonic step 48 ======================= 
+
+acoustic: Harmonic step 49 ======================= 
+
+acoustic: Harmonic step 50 ======================= 
+
+acoustic: Harmonic step 51 ======================= 
+
+acoustic: Harmonic step 52 ======================= 
+
+acoustic: Harmonic step 53 ======================= 
+
+acoustic: Harmonic step 54 ======================= 
+
+acoustic: Harmonic step 55 ======================= 
+
+acoustic: Harmonic step 56 ======================= 
+
+acoustic: Harmonic step 57 ======================= 
+
+acoustic: Harmonic step 58 ======================= 
+
+acoustic: Harmonic step 59 ======================= 
+
+acoustic: Harmonic step 60 ======================= 
+
+acoustic: Harmonic step 61 ======================= 
+
+acoustic: Harmonic step 62 ======================= 
+
+acoustic: Harmonic step 63 ======================= 
+
+acoustic: Harmonic step 64 ======================= 
+
+acoustic: Harmonic step 65 ======================= 
+
+acoustic: Harmonic step 66 ======================= 
+
+acoustic: Harmonic step 67 ======================= 
+
+acoustic: Harmonic step 68 ======================= 
+
+acoustic: Harmonic step 69 ======================= 
+
+acoustic: Harmonic step 70 ======================= 
+
+acoustic: Harmonic step 71 ======================= 
+
+acoustic: Harmonic step 72 ======================= 
+
+acoustic: Harmonic step 73 ======================= 
+
+acoustic: Harmonic step 74 ======================= 
+
+acoustic: Harmonic step 75 ======================= 
+
+acoustic: Harmonic step 76 ======================= 
+
+acoustic: Harmonic step 77 ======================= 
+
+acoustic: Harmonic step 78 ======================= 
+
+acoustic: Harmonic step 79 ======================= 
+
+acoustic: Harmonic step 80 ======================= 
+
+acoustic: Harmonic step 81 ======================= 
+
+acoustic: Harmonic step 82 ======================= 
+
+acoustic: Harmonic step 83 ======================= 
+
+acoustic: Harmonic step 84 ======================= 
+
+acoustic: Harmonic step 85 ======================= 
+
+acoustic: Harmonic step 86 ======================= 
+
+acoustic: Harmonic step 87 ======================= 
+
+acoustic: Harmonic step 88 ======================= 
+
+acoustic: Harmonic step 89 ======================= 
+
+acoustic: Harmonic step 90 ======================= 
+
+acoustic: Harmonic step 91 ======================= 
+
+acoustic: Harmonic step 92 ======================= 
+
+acoustic: Harmonic step 93 ======================= 
+
+acoustic: Harmonic step 94 ======================= 
+
+acoustic: Harmonic step 95 ======================= 
+
+acoustic: Harmonic step 96 ======================= 
+
+acoustic: Harmonic step 97 ======================= 
+
+acoustic: Harmonic step 98 ======================= 
+
+acoustic: Harmonic step 99 ======================= 
+
+acoustic: Harmonic step 100 ======================= 
+
+acoustic: Harmonic step 101 ======================= 
+
+acoustic: Harmonic step 102 ======================= 
+
+acoustic: Harmonic step 103 ======================= 
+
+acoustic: Harmonic step 104 ======================= 
+
+acoustic: Harmonic step 105 ======================= 
+
+acoustic: Harmonic step 106 ======================= 
+
+acoustic: Harmonic step 107 ======================= 
+
+acoustic: Harmonic step 108 ======================= 
+
+acoustic: Harmonic step 109 ======================= 
+
+acoustic: Harmonic step 110 ======================= 
+
+acoustic: Harmonic step 111 ======================= 
+
+acoustic: Harmonic step 112 ======================= 
+
+acoustic: Harmonic step 113 ======================= 
+
+acoustic: Harmonic step 114 ======================= 
+
+acoustic: Harmonic step 115 ======================= 
+
+acoustic: Harmonic step 116 ======================= 
+
+acoustic: Harmonic step 117 ======================= 
+
+acoustic: Harmonic step 118 ======================= 
+
+acoustic: Harmonic step 119 ======================= 
+
+acoustic: Harmonic step 120 ======================= 
+
+acoustic: Harmonic step 121 ======================= 
+
+acoustic: Harmonic step 122 ======================= 
+
+acoustic: Harmonic step 123 ======================= 
+
+acoustic: Harmonic step 124 ======================= 
+
+acoustic: Harmonic step 125 ======================= 
+
+acoustic: Harmonic step 126 ======================= 
+
+acoustic: Harmonic step 127 ======================= 
+
+acoustic: Harmonic step 128 ======================= 
+
+acoustic: Harmonic step 129 ======================= 
+
+acoustic: Harmonic step 130 ======================= 
+
+acoustic: Harmonic step 131 ======================= 
+
+acoustic: Harmonic step 132 ======================= 
+
+acoustic: Harmonic step 133 ======================= 
+
+acoustic: Harmonic step 134 ======================= 
+
+acoustic: Harmonic step 135 ======================= 
+
+acoustic: Harmonic step 136 ======================= 
+
+acoustic: Harmonic step 137 ======================= 
+
+acoustic: Harmonic step 138 ======================= 
+
+acoustic: Harmonic step 139 ======================= 
+
+acoustic: Harmonic step 140 ======================= 
+
+acoustic: Harmonic step 141 ======================= 
+
+acoustic: Harmonic step 142 ======================= 
+
+acoustic: Harmonic step 143 ======================= 
+
+acoustic: Harmonic step 144 ======================= 
+
+acoustic: Harmonic step 145 ======================= 
+
+acoustic: Harmonic step 146 ======================= 
+
+acoustic: Harmonic step 147 ======================= 
+
+acoustic: Harmonic step 148 ======================= 
+
+acoustic: Harmonic step 149 ======================= 
+
+acoustic: Harmonic step 150 ======================= 
+
+++ Finished solving the problem at 2023-Mar-09 05:14:43
+
+>> Total wall-clock time: '1h 32.22s' cpu time: '1h 58m 28.13s' at 2023-Mar-09 05:14:43
+
+
+=======================================================================
+ CFS++ - Coupled Field Simulation
+
+ v. 22.09 - 'Frohes Fensterln' 56797e7bc1ba33fd9312c903fc63155c312df203
+ compiled Oct  3 2022 as Release (distributable)
+ CFS++ routines use 2 threads for this run. OMP/ MKL threads: 2/ 2
+=======================================================================
+
+Simulation run started at 2023-Mar-09 05:14:43 on DESKTOP-TBHLNOT
+++ Reading parameter file '/home/ats5662/SchwarzP_Lidinoid_GFIT_Aeroacoustic_Simulation/SchwarzP/PLA/SchwarzP_GFIT_M00_PLA.xml'
+++ Creating hdf5 writer with ID 'hdf5'
+++ Creating text writer with ID 'txt'
+++ Reading mesh ... Initial scan of input file
+
+Number of node blocks found 1
+Number of element blocks found 1
+Number of cm blocks found 15
+Number of N commands found 1
+Number of ET commands found 1
+Finished scanning input file
+Processing node block 1
+
+nblock 1 (145831 nodes found in block)
+Finished reading nodes (145831 read)
+
+Element block 0 (31032 elements read)
+Finished reading elements (31032 read)
+Region name: AirBlock
+Region AirBlock contains 31032 entries
+NodeGroup 1 contains 1045 entries
+NodeGroup 2 contains 1045 entries
+NodeGroup 3 contains 1045 entries
+NodeGroup 4 contains 1045 entries
+NodeGroup 5 contains 1045 entries
+NodeGroup 6 contains 1045 entries
+NodeGroup 7 contains 1045 entries
+NodeGroup 8 contains 1045 entries
+NodeGroup 9 contains 1045 entries
+NodeGroup 10 contains 1045 entries
+NodeGroup 11 contains 1045 entries
+NodeGroup 12 contains 1045 entries
+NodeGroup 13 contains 1045 entries
+NodeGroup 14 contains 1045 entries
+"GFITMesh.cdb" Overall number of faces generated: 100042
+-> partially regular
+++ Creating PDE 'acoustic' for analysis 'harmonic'
+
+acoustic: Harmonic step 1 ======================= 
+
+acoustic: Harmonic step 2 ======================= 
+
+acoustic: Harmonic step 3 ======================= 
+
+acoustic: Harmonic step 4 ======================= 
+
+acoustic: Harmonic step 5 ======================= 
+
+acoustic: Harmonic step 6 ======================= 
+
+acoustic: Harmonic step 7 ======================= 
+
+acoustic: Harmonic step 8 ======================= 
+
+acoustic: Harmonic step 9 ======================= 
+
+acoustic: Harmonic step 10 ======================= 
+
+acoustic: Harmonic step 11 ======================= 
+
+acoustic: Harmonic step 12 ======================= 
+
+acoustic: Harmonic step 13 ======================= 
+
+acoustic: Harmonic step 14 ======================= 
+
+acoustic: Harmonic step 15 ======================= 
+
+acoustic: Harmonic step 16 ======================= 
+
+acoustic: Harmonic step 17 ======================= 
+
+acoustic: Harmonic step 18 ======================= 
+
+acoustic: Harmonic step 19 ======================= 
+
+acoustic: Harmonic step 20 ======================= 
+
+acoustic: Harmonic step 21 ======================= 
+
+acoustic: Harmonic step 22 ======================= 
+
+acoustic: Harmonic step 23 ======================= 
+
+acoustic: Harmonic step 24 ======================= 
+
+acoustic: Harmonic step 25 ======================= 
+
+acoustic: Harmonic step 26 ======================= 
+
+acoustic: Harmonic step 27 ======================= 
+
+acoustic: Harmonic step 28 ======================= 
+
+acoustic: Harmonic step 29 ======================= 
+
+acoustic: Harmonic step 30 ======================= 
+
+acoustic: Harmonic step 31 ======================= 
+
+acoustic: Harmonic step 32 ======================= 
+
+acoustic: Harmonic step 33 ======================= 
+
+acoustic: Harmonic step 34 ======================= 
+
+acoustic: Harmonic step 35 ======================= 
+
+acoustic: Harmonic step 36 ======================= 
+
+acoustic: Harmonic step 37 ======================= 
+
+acoustic: Harmonic step 38 ======================= 
+
+acoustic: Harmonic step 39 ======================= 
+
+acoustic: Harmonic step 40 ======================= 
+
+acoustic: Harmonic step 41 ======================= 
+
+acoustic: Harmonic step 42 ======================= 
+
+acoustic: Harmonic step 43 ======================= 
+
+acoustic: Harmonic step 44 ======================= 
+
+acoustic: Harmonic step 45 ======================= 
+
+acoustic: Harmonic step 46 ======================= 
+
+acoustic: Harmonic step 47 ======================= 
+
+acoustic: Harmonic step 48 ======================= 
+
+acoustic: Harmonic step 49 ======================= 
+
+acoustic: Harmonic step 50 ======================= 
+
+acoustic: Harmonic step 51 ======================= 
+
+acoustic: Harmonic step 52 ======================= 
+
+acoustic: Harmonic step 53 ======================= 
+
+acoustic: Harmonic step 54 ======================= 
+
+acoustic: Harmonic step 55 ======================= 
+
+acoustic: Harmonic step 56 ======================= 
+
+acoustic: Harmonic step 57 ======================= 
+
+acoustic: Harmonic step 58 ======================= 
+
+acoustic: Harmonic step 59 ======================= 
+
+acoustic: Harmonic step 60 ======================= 
+
+acoustic: Harmonic step 61 ======================= 
+
+acoustic: Harmonic step 62 ======================= 
+
+acoustic: Harmonic step 63 ======================= 
+
+acoustic: Harmonic step 64 ======================= 
+
+acoustic: Harmonic step 65 ======================= 
+
+acoustic: Harmonic step 66 ======================= 
+
+acoustic: Harmonic step 67 ======================= 
+
+acoustic: Harmonic step 68 ======================= 
+
+acoustic: Harmonic step 69 ======================= 
+
+acoustic: Harmonic step 70 ======================= 
+
+acoustic: Harmonic step 71 ======================= 
+
+acoustic: Harmonic step 72 ======================= 
+
+acoustic: Harmonic step 73 ======================= 
+
+acoustic: Harmonic step 74 ======================= 
+
+acoustic: Harmonic step 75 ======================= 
+
+acoustic: Harmonic step 76 ======================= 
+
+acoustic: Harmonic step 77 ======================= 
+
+acoustic: Harmonic step 78 ======================= 
+
+acoustic: Harmonic step 79 ======================= 
+
+acoustic: Harmonic step 80 ======================= 
+
+acoustic: Harmonic step 81 ======================= 
+
+acoustic: Harmonic step 82 ======================= 
+
+acoustic: Harmonic step 83 ======================= 
+
+acoustic: Harmonic step 84 ======================= 
+
+acoustic: Harmonic step 85 ======================= 
+
+acoustic: Harmonic step 86 ======================= 
+
+acoustic: Harmonic step 87 ======================= 
+
+acoustic: Harmonic step 88 ======================= 
+
+acoustic: Harmonic step 89 ======================= 
+
+acoustic: Harmonic step 90 ======================= 
+
+acoustic: Harmonic step 91 ======================= 
+
+acoustic: Harmonic step 92 ======================= 
+
+acoustic: Harmonic step 93 ======================= 
+
+acoustic: Harmonic step 94 ======================= 
+
+acoustic: Harmonic step 95 ======================= 
+
+acoustic: Harmonic step 96 ======================= 
+
+acoustic: Harmonic step 97 ======================= 
+
+acoustic: Harmonic step 98 ======================= 
+
+acoustic: Harmonic step 99 ======================= 
+
+acoustic: Harmonic step 100 ======================= 
+
+acoustic: Harmonic step 101 ======================= 
+
+acoustic: Harmonic step 102 ======================= 
+
+acoustic: Harmonic step 103 ======================= 
+
+acoustic: Harmonic step 104 ======================= 
+
+acoustic: Harmonic step 105 ======================= 
+
+acoustic: Harmonic step 106 ======================= 
+
+acoustic: Harmonic step 107 ======================= 
+
+acoustic: Harmonic step 108 ======================= 
+
+acoustic: Harmonic step 109 ======================= 
+
+acoustic: Harmonic step 110 ======================= 
+
+acoustic: Harmonic step 111 ======================= 
+
+acoustic: Harmonic step 112 ======================= 
+
+acoustic: Harmonic step 113 ======================= 
+
+acoustic: Harmonic step 114 ======================= 
+
+acoustic: Harmonic step 115 ======================= 
+
+acoustic: Harmonic step 116 ======================= 
+
+acoustic: Harmonic step 117 ======================= 
+
+acoustic: Harmonic step 118 ======================= 
+
+acoustic: Harmonic step 119 ======================= 
+
+acoustic: Harmonic step 120 ======================= 
+
+acoustic: Harmonic step 121 ======================= 
+
+acoustic: Harmonic step 122 ======================= 
+
+acoustic: Harmonic step 123 ======================= 
+
+acoustic: Harmonic step 124 ======================= 
+
+acoustic: Harmonic step 125 ======================= 
+
+acoustic: Harmonic step 126 ======================= 
+
+acoustic: Harmonic step 127 ======================= 
+
+acoustic: Harmonic step 128 ======================= 
+
+acoustic: Harmonic step 129 ======================= 
+
+acoustic: Harmonic step 130 ======================= 
+
+acoustic: Harmonic step 131 ======================= 
+
+acoustic: Harmonic step 132 ======================= 
+
+acoustic: Harmonic step 133 ======================= 
+
+acoustic: Harmonic step 134 ======================= 
+
+acoustic: Harmonic step 135 ======================= 
+
+acoustic: Harmonic step 136 ======================= 
+
+acoustic: Harmonic step 137 ======================= 
+
+acoustic: Harmonic step 138 ======================= 
+
+acoustic: Harmonic step 139 ======================= 
+
+acoustic: Harmonic step 140 ======================= 
+
+acoustic: Harmonic step 141 ======================= 
+
+acoustic: Harmonic step 142 ======================= 
+
+acoustic: Harmonic step 143 ======================= 
+
+acoustic: Harmonic step 144 ======================= 
+
+acoustic: Harmonic step 145 ======================= 
+
+acoustic: Harmonic step 146 ======================= 
+
+acoustic: Harmonic step 147 ======================= 
+
+acoustic: Harmonic step 148 ======================= 
+
+acoustic: Harmonic step 149 ======================= 
+
+acoustic: Harmonic step 150 ======================= 
+
+++ Finished solving the problem at 2023-Mar-09 05:44:40
+
+>> Total wall-clock time: '29m 56.46s' cpu time: '58m 32.04s' at 2023-Mar-09 05:44:40
+
+
+=======================================================================
+ CFS++ - Coupled Field Simulation
+
+ v. 22.09 - 'Frohes Fensterln' 56797e7bc1ba33fd9312c903fc63155c312df203
+ compiled Oct  3 2022 as Release (distributable)
+ CFS++ routines use 2 threads for this run. OMP/ MKL threads: 2/ 2
+=======================================================================
+
+Simulation run started at 2023-Mar-09 05:44:40 on DESKTOP-TBHLNOT
+++ Reading parameter file '/home/ats5662/SchwarzP_Lidinoid_GFIT_Aeroacoustic_Simulation/SchwarzP/PLA/SchwarzP_GFIT_M05_PLA.xml'
+++ Creating hdf5 writer with ID 'hdf5'
+++ Creating text writer with ID 'txt'
+++ Reading mesh ... Initial scan of input file
+
+Number of node blocks found 1
+Number of element blocks found 1
+Number of cm blocks found 15
+Number of N commands found 1
+Number of ET commands found 1
+Finished scanning input file
+Processing node block 1
+
+nblock 1 (145831 nodes found in block)
+Finished reading nodes (145831 read)
+
+Element block 0 (31032 elements read)
+Finished reading elements (31032 read)
+Region name: AirBlock
+Region AirBlock contains 31032 entries
+NodeGroup 1 contains 1045 entries
+NodeGroup 2 contains 1045 entries
+NodeGroup 3 contains 1045 entries
+NodeGroup 4 contains 1045 entries
+NodeGroup 5 contains 1045 entries
+NodeGroup 6 contains 1045 entries
+NodeGroup 7 contains 1045 entries
+NodeGroup 8 contains 1045 entries
+NodeGroup 9 contains 1045 entries
+NodeGroup 10 contains 1045 entries
+NodeGroup 11 contains 1045 entries
+NodeGroup 12 contains 1045 entries
+NodeGroup 13 contains 1045 entries
+NodeGroup 14 contains 1045 entries
+"GFITMesh.cdb" Overall number of faces generated: 100042
+-> partially regular
+++ Creating PDE 'acoustic' for analysis 'harmonic'
+DO Convective Wave Operator!!!!!!!!!!!!!!!!!
+
+
+acoustic: Harmonic step 1 ======================= 
+
+acoustic: Harmonic step 2 ======================= 
+
+acoustic: Harmonic step 3 ======================= 
+
+acoustic: Harmonic step 4 ======================= 
+
+acoustic: Harmonic step 5 ======================= 
+
+acoustic: Harmonic step 6 ======================= 
+
+acoustic: Harmonic step 7 ======================= 
+
+acoustic: Harmonic step 8 ======================= 
+
+acoustic: Harmonic step 9 ======================= 
+
+acoustic: Harmonic step 10 ======================= 
+
+acoustic: Harmonic step 11 ======================= 
+
+acoustic: Harmonic step 12 ======================= 
+
+acoustic: Harmonic step 13 ======================= 
+
+acoustic: Harmonic step 14 ======================= 
+
+acoustic: Harmonic step 15 ======================= 
+
+acoustic: Harmonic step 16 ======================= 
+
+acoustic: Harmonic step 17 ======================= 
+
+acoustic: Harmonic step 18 ======================= 
+
+acoustic: Harmonic step 19 ======================= 
+
+acoustic: Harmonic step 20 ======================= 
+
+acoustic: Harmonic step 21 ======================= 
+
+acoustic: Harmonic step 22 ======================= 
+
+acoustic: Harmonic step 23 ======================= 
+
+acoustic: Harmonic step 24 ======================= 
+
+acoustic: Harmonic step 25 ======================= 
+
+acoustic: Harmonic step 26 ======================= 
+
+acoustic: Harmonic step 27 ======================= 
+
+acoustic: Harmonic step 28 ======================= 
+
+acoustic: Harmonic step 29 ======================= 
+
+acoustic: Harmonic step 30 ======================= 
+
+acoustic: Harmonic step 31 ======================= 
+
+acoustic: Harmonic step 32 ======================= 
+
+acoustic: Harmonic step 33 ======================= 
+
+acoustic: Harmonic step 34 ======================= 
+
+acoustic: Harmonic step 35 ======================= 
+
+acoustic: Harmonic step 36 ======================= 
+
+acoustic: Harmonic step 37 ======================= 
+
+acoustic: Harmonic step 38 ======================= 
+
+acoustic: Harmonic step 39 ======================= 
+
+acoustic: Harmonic step 40 ======================= 
+
+acoustic: Harmonic step 41 ======================= 
+
+acoustic: Harmonic step 42 ======================= 
+
+acoustic: Harmonic step 43 ======================= 
+
+acoustic: Harmonic step 44 ======================= 
+
+acoustic: Harmonic step 45 ======================= 
+
+acoustic: Harmonic step 46 ======================= 
+
+acoustic: Harmonic step 47 ======================= 
+
+acoustic: Harmonic step 48 ======================= 
+
+acoustic: Harmonic step 49 ======================= 
+
+acoustic: Harmonic step 50 ======================= 
+
+acoustic: Harmonic step 51 ======================= 
+
+acoustic: Harmonic step 52 ======================= 
+
+acoustic: Harmonic step 53 ======================= 
+
+acoustic: Harmonic step 54 ======================= 
+
+acoustic: Harmonic step 55 ======================= 
+
+acoustic: Harmonic step 56 ======================= 
+
+acoustic: Harmonic step 57 ======================= 
+
+acoustic: Harmonic step 58 ======================= 
+
+acoustic: Harmonic step 59 ======================= 
+
+acoustic: Harmonic step 60 ======================= 
+
+acoustic: Harmonic step 61 ======================= 
+
+acoustic: Harmonic step 62 ======================= 
+
+acoustic: Harmonic step 63 ======================= 
+
+acoustic: Harmonic step 64 ======================= 
+
+acoustic: Harmonic step 65 ======================= 
+
+acoustic: Harmonic step 66 ======================= 
+
+acoustic: Harmonic step 67 ======================= 
+
+acoustic: Harmonic step 68 ======================= 
+
+acoustic: Harmonic step 69 ======================= 
+
+acoustic: Harmonic step 70 ======================= 
+
+acoustic: Harmonic step 71 ======================= 
+
+acoustic: Harmonic step 72 ======================= 
+
+acoustic: Harmonic step 73 ======================= 
+
+acoustic: Harmonic step 74 ======================= 
+
+acoustic: Harmonic step 75 ======================= 
+
+acoustic: Harmonic step 76 ======================= 
+
+acoustic: Harmonic step 77 ======================= 
+
+acoustic: Harmonic step 78 ======================= 
+
+acoustic: Harmonic step 79 ======================= 
+
+acoustic: Harmonic step 80 ======================= 
+
+acoustic: Harmonic step 81 ======================= 
+
+acoustic: Harmonic step 82 ======================= 
+
+acoustic: Harmonic step 83 ======================= 
+
+acoustic: Harmonic step 84 ======================= 
+
+acoustic: Harmonic step 85 ======================= 
+
+acoustic: Harmonic step 86 ======================= 
+
+acoustic: Harmonic step 87 ======================= 
+
+acoustic: Harmonic step 88 ======================= 
+
+acoustic: Harmonic step 89 ======================= 
+
+acoustic: Harmonic step 90 ======================= 
+
+acoustic: Harmonic step 91 ======================= 
+
+acoustic: Harmonic step 92 ======================= 
+
+acoustic: Harmonic step 93 ======================= 
+
+acoustic: Harmonic step 94 ======================= 
+
+acoustic: Harmonic step 95 ======================= 
+
+acoustic: Harmonic step 96 ======================= 
+
+acoustic: Harmonic step 97 ======================= 
+
+acoustic: Harmonic step 98 ======================= 
+
+acoustic: Harmonic step 99 ======================= 
+
+acoustic: Harmonic step 100 ======================= 
+
+acoustic: Harmonic step 101 ======================= 
+
+acoustic: Harmonic step 102 ======================= 
+
+acoustic: Harmonic step 103 ======================= 
+
+acoustic: Harmonic step 104 ======================= 
+
+acoustic: Harmonic step 105 ======================= 
+
+acoustic: Harmonic step 106 ======================= 
+
+acoustic: Harmonic step 107 ======================= 
+
+acoustic: Harmonic step 108 ======================= 
+
+acoustic: Harmonic step 109 ======================= 
+
+acoustic: Harmonic step 110 ======================= 
+
+acoustic: Harmonic step 111 ======================= 
+
+acoustic: Harmonic step 112 ======================= 
+
+acoustic: Harmonic step 113 ======================= 
+
+acoustic: Harmonic step 114 ======================= 
+
+acoustic: Harmonic step 115 ======================= 
+
+acoustic: Harmonic step 116 ======================= 
+
+acoustic: Harmonic step 117 ======================= 
+
+acoustic: Harmonic step 118 ======================= 
+
+acoustic: Harmonic step 119 ======================= 
+
+acoustic: Harmonic step 120 ======================= 
+
+acoustic: Harmonic step 121 ======================= 
+
+acoustic: Harmonic step 122 ======================= 
+
+acoustic: Harmonic step 123 ======================= 
+
+acoustic: Harmonic step 124 ======================= 
+
+acoustic: Harmonic step 125 ======================= 
+
+acoustic: Harmonic step 126 ======================= 
+
+acoustic: Harmonic step 127 ======================= 
+
+acoustic: Harmonic step 128 ======================= 
+
+acoustic: Harmonic step 129 ======================= 
+
+acoustic: Harmonic step 130 ======================= 
+
+acoustic: Harmonic step 131 ======================= 
+
+acoustic: Harmonic step 132 ======================= 
+
+acoustic: Harmonic step 133 ======================= 
+
+acoustic: Harmonic step 134 ======================= 
+
+acoustic: Harmonic step 135 ======================= 
+
+acoustic: Harmonic step 136 ======================= 
+
+acoustic: Harmonic step 137 ======================= 
+
+acoustic: Harmonic step 138 ======================= 
+
+acoustic: Harmonic step 139 ======================= 
+
+acoustic: Harmonic step 140 ======================= 
+
+acoustic: Harmonic step 141 ======================= 
+
+acoustic: Harmonic step 142 ======================= 
+
+acoustic: Harmonic step 143 ======================= 
+
+acoustic: Harmonic step 144 ======================= 
+
+acoustic: Harmonic step 145 ======================= 
+
+acoustic: Harmonic step 146 ======================= 
+
+acoustic: Harmonic step 147 ======================= 
+
+acoustic: Harmonic step 148 ======================= 
+
+acoustic: Harmonic step 149 ======================= 
+
+acoustic: Harmonic step 150 ======================= 
+
+++ Finished solving the problem at 2023-Mar-09 06:47:42
+
+>> Total wall-clock time: '1h 3m 1.777s' cpu time: '2h 3m 30.6s' at 2023-Mar-09 06:47:42
+
+
+=======================================================================
+ CFS++ - Coupled Field Simulation
+
+ v. 22.09 - 'Frohes Fensterln' 56797e7bc1ba33fd9312c903fc63155c312df203
+ compiled Oct  3 2022 as Release (distributable)
+ CFS++ routines use 2 threads for this run. OMP/ MKL threads: 2/ 2
+=======================================================================
+
+Simulation run started at 2023-Mar-09 06:47:42 on DESKTOP-TBHLNOT
+++ Reading parameter file '/home/ats5662/SchwarzP_Lidinoid_GFIT_Aeroacoustic_Simulation/SchwarzP/PLA/SchwarzP_GFIT_M025_PLA.xml'
+++ Creating hdf5 writer with ID 'hdf5'
+++ Creating text writer with ID 'txt'
+++ Reading mesh ... Initial scan of input file
+
+Number of node blocks found 1
+Number of element blocks found 1
+Number of cm blocks found 15
+Number of N commands found 1
+Number of ET commands found 1
+Finished scanning input file
+Processing node block 1
+
+nblock 1 (145831 nodes found in block)
+Finished reading nodes (145831 read)
+
+Element block 0 (31032 elements read)
+Finished reading elements (31032 read)
+Region name: AirBlock
+Region AirBlock contains 31032 entries
+NodeGroup 1 contains 1045 entries
+NodeGroup 2 contains 1045 entries
+NodeGroup 3 contains 1045 entries
+NodeGroup 4 contains 1045 entries
+NodeGroup 5 contains 1045 entries
+NodeGroup 6 contains 1045 entries
+NodeGroup 7 contains 1045 entries
+NodeGroup 8 contains 1045 entries
+NodeGroup 9 contains 1045 entries
+NodeGroup 10 contains 1045 entries
+NodeGroup 11 contains 1045 entries
+NodeGroup 12 contains 1045 entries
+NodeGroup 13 contains 1045 entries
+NodeGroup 14 contains 1045 entries
+"GFITMesh.cdb" Overall number of faces generated: 100042
+-> partially regular
+++ Creating PDE 'acoustic' for analysis 'harmonic'
+DO Convective Wave Operator!!!!!!!!!!!!!!!!!
+
+
+acoustic: Harmonic step 1 ======================= 
+
+acoustic: Harmonic step 2 ======================= 
+
+acoustic: Harmonic step 3 ======================= 
+
+acoustic: Harmonic step 4 ======================= 
+
+acoustic: Harmonic step 5 ======================= 
+
+acoustic: Harmonic step 6 ======================= 
+
+acoustic: Harmonic step 7 ======================= 
+
+acoustic: Harmonic step 8 ======================= 
+
+acoustic: Harmonic step 9 ======================= 
+
+acoustic: Harmonic step 10 ======================= 
+
+acoustic: Harmonic step 11 ======================= 
+
+acoustic: Harmonic step 12 ======================= 
+
+acoustic: Harmonic step 13 ======================= 
+
+acoustic: Harmonic step 14 ======================= 
+
+acoustic: Harmonic step 15 ======================= 
+
+acoustic: Harmonic step 16 ======================= 
+
+acoustic: Harmonic step 17 ======================= 
+
+acoustic: Harmonic step 18 ======================= 
+
+acoustic: Harmonic step 19 ======================= 
+
+acoustic: Harmonic step 20 ======================= 
+
+acoustic: Harmonic step 21 ======================= 
+
+acoustic: Harmonic step 22 ======================= 
+
+acoustic: Harmonic step 23 ======================= 
+
+acoustic: Harmonic step 24 ======================= 
+
+acoustic: Harmonic step 25 ======================= 
+
+acoustic: Harmonic step 26 ======================= 
+
+acoustic: Harmonic step 27 ======================= 
+
+acoustic: Harmonic step 28 ======================= 
+
+acoustic: Harmonic step 29 ======================= 
+
+acoustic: Harmonic step 30 ======================= 
+
+acoustic: Harmonic step 31 ======================= 
+
+acoustic: Harmonic step 32 ======================= 
+
+acoustic: Harmonic step 33 ======================= 
+
+acoustic: Harmonic step 34 ======================= 
+
+acoustic: Harmonic step 35 ======================= 
+
+acoustic: Harmonic step 36 ======================= 
+
+acoustic: Harmonic step 37 ======================= 
+
+acoustic: Harmonic step 38 ======================= 
+
+acoustic: Harmonic step 39 ======================= 
+
+acoustic: Harmonic step 40 ======================= 
+
+acoustic: Harmonic step 41 ======================= 
+
+acoustic: Harmonic step 42 ======================= 
+
+acoustic: Harmonic step 43 ======================= 
+
+acoustic: Harmonic step 44 ======================= 
+
+acoustic: Harmonic step 45 ======================= 
+
+acoustic: Harmonic step 46 ======================= 
+
+acoustic: Harmonic step 47 ======================= 
+
+acoustic: Harmonic step 48 ======================= 
+
+acoustic: Harmonic step 49 ======================= 
+
+acoustic: Harmonic step 50 ======================= 
+
+acoustic: Harmonic step 51 ======================= 
+
+acoustic: Harmonic step 52 ======================= 
+
+acoustic: Harmonic step 53 ======================= 
+
+acoustic: Harmonic step 54 ======================= 
+
+acoustic: Harmonic step 55 ======================= 
+
+acoustic: Harmonic step 56 ======================= 
+
+acoustic: Harmonic step 57 ======================= 
+
+acoustic: Harmonic step 58 ======================= 
+
+acoustic: Harmonic step 59 ======================= 
+
+acoustic: Harmonic step 60 ======================= 
+
+acoustic: Harmonic step 61 ======================= 
+
+acoustic: Harmonic step 62 ======================= 
+
+acoustic: Harmonic step 63 ======================= 
+
+acoustic: Harmonic step 64 ======================= 
+
+acoustic: Harmonic step 65 ======================= 
+
+acoustic: Harmonic step 66 ======================= 
+
+acoustic: Harmonic step 67 ======================= 
+
+acoustic: Harmonic step 68 ======================= 
+
+acoustic: Harmonic step 69 ======================= 
+
+acoustic: Harmonic step 70 ======================= 
+
+acoustic: Harmonic step 71 ======================= 
+
+acoustic: Harmonic step 72 ======================= 
+
+acoustic: Harmonic step 73 ======================= 
+
+acoustic: Harmonic step 74 ======================= 
+
+acoustic: Harmonic step 75 ======================= 
+
+acoustic: Harmonic step 76 ======================= 
+
+acoustic: Harmonic step 77 ======================= 
+
+acoustic: Harmonic step 78 ======================= 
+
+acoustic: Harmonic step 79 ======================= 
+
+acoustic: Harmonic step 80 ======================= 
+
+acoustic: Harmonic step 81 ======================= 
+
+acoustic: Harmonic step 82 ======================= 
+
+acoustic: Harmonic step 83 ======================= 
+
+acoustic: Harmonic step 84 ======================= 
+
+acoustic: Harmonic step 85 ======================= 
+
+acoustic: Harmonic step 86 ======================= 
+
+acoustic: Harmonic step 87 ======================= 
+
+acoustic: Harmonic step 88 ======================= 
+
+acoustic: Harmonic step 89 ======================= 
+
+acoustic: Harmonic step 90 ======================= 
+
+acoustic: Harmonic step 91 ======================= 
+
+acoustic: Harmonic step 92 ======================= 
+
+acoustic: Harmonic step 93 ======================= 
+
+acoustic: Harmonic step 94 ======================= 
+
+acoustic: Harmonic step 95 ======================= 
+
+acoustic: Harmonic step 96 ======================= 
+
+acoustic: Harmonic step 97 ======================= 
+
+acoustic: Harmonic step 98 ======================= 
+
+acoustic: Harmonic step 99 ======================= 
+
+acoustic: Harmonic step 100 ======================= 
+
+acoustic: Harmonic step 101 ======================= 
+
+acoustic: Harmonic step 102 ======================= 
+
+acoustic: Harmonic step 103 ======================= 
+
+acoustic: Harmonic step 104 ======================= 
+
+acoustic: Harmonic step 105 ======================= 
+
+acoustic: Harmonic step 106 ======================= 
+
+acoustic: Harmonic step 107 ======================= 
+
+acoustic: Harmonic step 108 ======================= 
+
+acoustic: Harmonic step 109 ======================= 
+
+acoustic: Harmonic step 110 ======================= 
+
+acoustic: Harmonic step 111 ======================= 
+
+acoustic: Harmonic step 112 ======================= 
+
+acoustic: Harmonic step 113 ======================= 
+
+acoustic: Harmonic step 114 ======================= 
+
+acoustic: Harmonic step 115 ======================= 
+
+acoustic: Harmonic step 116 ======================= 
+
+acoustic: Harmonic step 117 ======================= 
+
+acoustic: Harmonic step 118 ======================= 
+
+acoustic: Harmonic step 119 ======================= 
+
+acoustic: Harmonic step 120 ======================= 
+
+acoustic: Harmonic step 121 ======================= 
+
+acoustic: Harmonic step 122 ======================= 
+
+acoustic: Harmonic step 123 ======================= 
+
+acoustic: Harmonic step 124 ======================= 
+
+acoustic: Harmonic step 125 ======================= 
+
+acoustic: Harmonic step 126 ======================= 
+
+acoustic: Harmonic step 127 ======================= 
+
+acoustic: Harmonic step 128 ======================= 
+
+acoustic: Harmonic step 129 ======================= 
+
+acoustic: Harmonic step 130 ======================= 
+
+acoustic: Harmonic step 131 ======================= 
+
+acoustic: Harmonic step 132 ======================= 
+
+acoustic: Harmonic step 133 ======================= 
+
+acoustic: Harmonic step 134 ======================= 
+
+acoustic: Harmonic step 135 ======================= 
+
+acoustic: Harmonic step 136 ======================= 
+
+acoustic: Harmonic step 137 ======================= 
+
+acoustic: Harmonic step 138 ======================= 
+
+acoustic: Harmonic step 139 ======================= 
+
+acoustic: Harmonic step 140 ======================= 
+
+acoustic: Harmonic step 141 ======================= 
+
+acoustic: Harmonic step 142 ======================= 
+
+acoustic: Harmonic step 143 ======================= 
+
+acoustic: Harmonic step 144 ======================= 
+
+acoustic: Harmonic step 145 ======================= 
+
+acoustic: Harmonic step 146 ======================= 
+
+acoustic: Harmonic step 147 ======================= 
+
+acoustic: Harmonic step 148 ======================= 
+
+acoustic: Harmonic step 149 ======================= 
+
+acoustic: Harmonic step 150 ======================= 
+
+++ Finished solving the problem at 2023-Mar-09 07:51:27
+
+>> Total wall-clock time: '1h 3m 45.2s' cpu time: '2h 4m 46.26s' at 2023-Mar-09 07:51:27
+

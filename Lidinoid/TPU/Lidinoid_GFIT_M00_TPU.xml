@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<cfsSimulation xmlns='http://www.cfs++.org/simulation'
+	xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	xsi:schemaLocation='http://www.cfs++.org/simulation 
+ https://opencfs.gitlab.io/cfs/xml/CFS-Simulation/CFS.xsd'>
+
+	<fileFormats>
+		<input>
+			<cdb fileName='GFITMesh.cdb' />
+		</input>
+		<output>
+			<hdf5 extension="cfs" />
+			<text id='txt' />
+		</output>
+		<materialData file='mat.xml' format='xml' />
+	</fileFormats>
+	<domain geometryType='3d'>
+		<regionList>
+			<region name='AirBlock' material='Air' />
+		</regionList>
+		<nodeList>
+			<nodes name='Inlet'>
+				<coord x='0.0' y='0.0' z='0' />
+			</nodes>
+			<nodes name='Outlet'>
+				<coord x='0.0' y='0.0' z='3.048' />
+			</nodes>
+		</nodeList>
+	</domain>
+	<sequenceStep>
+		<analysis>
+			<harmonic>
+				<numFreq>150</numFreq>
+				<startFreq>377</startFreq>
+				<stopFreq>3400</stopFreq>
+				<sampling>linear</sampling>
+			</harmonic>
+		</analysis>
+		<pdeList>
+			<acoustic formulation='acouPressure'>
+				<regionList>
+					<region name='AirBlock' />
+				</regionList>
+				<flowList>
+					<flow name="Flow">
+						<comp dof="z" value="sqrt(142604.4/1.21)*0.0" />
+						<comp dof="x" value="0" />
+						<comp dof="y" value="0" />
+					</flow>
+				</flowList>
+				<bcsAndLoads>
+					<pressure name="Excite" value="63.2"
+						volumeRegion="AirBlock"></pressure>
+					<absorbingBCs name="EndTube" volumeRegion="AirBlock" />
+					<impedance name="Liner1" volumeRegion="AirBlock"
+						impedanceId="IMP" isNormalised="true" />
+					<impedance name="Liner2" volumeRegion="AirBlock"
+						impedanceId="IMP" isNormalised="true" />
+					<impedance name="Liner3" volumeRegion="AirBlock"
+						impedanceId="IMP" isNormalised="true" />
+					<impedance name="Liner4" volumeRegion="AirBlock"
+						impedanceId="IMP" isNormalised="true" />
+					<impedance name="Liner5" volumeRegion="AirBlock"
+						impedanceId="IMP" isNormalised="true" />
+					<impedance name="Liner6" volumeRegion="AirBlock"
+						impedanceId="IMP" isNormalised="true" />
+					<impedance name="Liner7" volumeRegion="AirBlock"
+						impedanceId="IMP" isNormalised="true" />
+					<impedance name="Liner8" volumeRegion="AirBlock"
+						impedanceId="IMP" isNormalised="true" />
+					<impedance name="Liner9" volumeRegion="AirBlock"
+						impedanceId="IMP" isNormalised="true" />
+					<impedance name="Liner10" volumeRegion="AirBlock"
+						impedanceId="IMP" isNormalised="true" />
+					<impedance name="Liner11" volumeRegion="AirBlock"
+						impedanceId="IMP" isNormalised="true" />
+					<impedance name="Liner12" volumeRegion="AirBlock"
+						impedanceId="IMP" isNormalised="true" />
+				</bcsAndLoads>
+				<impedanceList>
+					<fctImpedance id="IMP">
+						<fctReal>sample1D('Lidinoid_TPU_Resistance.txt',f,2)</fctReal>
+						<fctImag>sample1D('Lidinoid_TPU_Reactance.txt',f,2)</fctImag>
+					</fctImpedance>
+				</impedanceList>
+				<storeResults>
+					<nodeResult type='acouPressure' complexFormat='realImag'>
+						<allRegions outputIds="hdf5" />
+						<nodeList>
+							<nodes name="Inlet" outputIds="txt"/>
+							<nodes name="Outlet" outputIds="txt"/>
+						</nodeList>
+					</nodeResult>
+					<elemResult type='acouPressure' complexFormat='realImag'>
+						<allRegions outputIds="hdf5" />
+					</elemResult>
+					<surfRegionResult type="acouPowerPlaneWave" complexFormat="realImag">
+						<surfRegionList>
+							<surfRegion name="Excite" />
+							<surfRegion name="EndTube" />
+						</surfRegionList>
+					</surfRegionResult>
+				</storeResults>
+			</acoustic>
+		</pdeList>
+	</sequenceStep>
+</cfsSimulation>
